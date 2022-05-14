@@ -5,6 +5,8 @@ import { changeUserName, changeUserAge } from "./redux/actions/changeUser";
 
 const App = () => {
 
+  //redux na pratica
+
   const user = useSelector((state) => state);
   console.log(user);
   const dispatch = useDispatch();
